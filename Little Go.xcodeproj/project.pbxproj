@@ -24,6 +24,7 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		41FAAE01166FE5DA00003E22 /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41FAAE00166FE5DA00003E22 /* LaunchImage-568h@2x.png */; };
 		CD00A34E1487F9CF004E1A0C /* MANUAL in Resources */ = {isa = PBXBuildFile; fileRef = CD00A34D1487F9CF004E1A0C /* MANUAL */; };
 		CD00A363148C2C26004E1A0C /* ApplicationDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD00A358148C2C26004E1A0C /* ApplicationDelegate.mm */; };
 		CD00A364148C2C26004E1A0C /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = CD00A35A148C2C26004E1A0C /* Constants.m */; };
@@ -297,6 +298,7 @@
 		1D6058910D05DD3D006BFB54 /* Little Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Little Go.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		41FAAE00166FE5DA00003E22 /* LaunchImage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-568h@2x.png"; sourceTree = "<group>"; };
 		CD00A34D1487F9CF004E1A0C /* MANUAL */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MANUAL; sourceTree = "<group>"; };
 		CD00A357148C2C26004E1A0C /* ApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationDelegate.h; sourceTree = "<group>"; };
 		CD00A358148C2C26004E1A0C /* ApplicationDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ApplicationDelegate.mm; sourceTree = "<group>"; };
@@ -438,7 +440,7 @@
 		CD899E571645FFE400329154 /* TableViewTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewTextCell.m; sourceTree = "<group>"; };
 		CD899E5B164875A800329154 /* CrashReportingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashReportingModel.h; sourceTree = "<group>"; };
 		CD899E5C164875A800329154 /* CrashReportingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrashReportingModel.m; sourceTree = "<group>"; };
-		CD8A43C613318409009F3C7F /* book.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = book.dat; path = 3rdparty/install/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/share/fuego/book.dat; sourceTree = SOURCE_ROOT; };
+		CD8A43C613318409009F3C7F /* book.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = book.dat; path = 3rdparty/install/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/share/fuego/book.dat; sourceTree = SOURCE_ROOT; };
 		CD8E150614C4EF8200A7A90B /* UiElementMetrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UiElementMetrics.h; sourceTree = "<group>"; };
 		CD8E150714C4EF8200A7A90B /* UiElementMetrics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UiElementMetrics.m; sourceTree = "<group>"; };
 		CD8EFD021466DA7200A700B1 /* GoScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoScore.h; sourceTree = "<group>"; };
@@ -684,6 +686,7 @@
 		29B97314FDCFA39411CA2CEA /* Little Go */ = {
 			isa = PBXGroup;
 			children = (
+				41FAAE00166FE5DA00003E22 /* LaunchImage-568h@2x.png */,
 				CDE022D6155731740052ACE0 /* appicon-ipad.png */,
 				CD66127E155862F6009C6535 /* appicon-ipad@2x.png */,
 				CDE022D7155731740052ACE0 /* appicon-iphone.png */,
@@ -1451,6 +1454,7 @@
 				CD899E3D1643477300329154 /* Quincy.bundle in Resources */,
 				CD899E4A1645D2A200329154 /* PLCrashReporter-LICENSE.txt.html in Resources */,
 				CD899E4B1645D2A200329154 /* protobuf-c-LICENSE.txt.html in Resources */,
+				41FAAE01166FE5DA00003E22 /* LaunchImage-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

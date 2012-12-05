@@ -36,9 +36,9 @@
 # Subsequent sections are based on settings in this section,
 # you should not need to change anything in these other sections.
 # ----------------------------------------------------------------------
-IPHONEOS_BASESDK_VERSION=5.1
-IPHONE_SIMULATOR_BASESDK_VERSION=5.1
-MACOSX_BASESDK_VERSION=10.6  # If you use 10.4u, set deployment target separately
+IPHONEOS_BASESDK_VERSION=6.0
+IPHONE_SIMULATOR_BASESDK_VERSION=6.0
+MACOSX_BASESDK_VERSION=10.8  # If you use 10.4u, set deployment target separately
 
 # Deployment target variables must be exported because they are actually
 # used as environment variables, not just as input for constructing a command
@@ -136,7 +136,7 @@ PREFIX_BASEDIR="$BUILD_BASEDIR/install"           # build results are installed 
 # ----------------------------------------------------------------------
 # All platforms
 # ----------------------------------------------------------------------
-PLATFORMS_BASEDIR="/Developer/Platforms"
+PLATFORMS_BASEDIR="/Applications/Xcode.app/Contents/Developer/Platforms"
 
 # ----------------------------------------------------------------------
 # iPhoneOS platform
@@ -170,7 +170,7 @@ IPHONE_SIMULATOR_XCODEBUILD_SDKNAME="${IPHONE_SIMULATOR_XCODEBUILD_SDKPREFIX}${I
 MACOSX_PREFIX="MacOSX"
 MACOSX_PLATFORMDIR="/."   # there is no real platform directory for Mac OS X
 MACOSX_BASESDK_DIR="$MACOSX_PLATFORMDIR/Developer/SDKs/${MACOSX_PREFIX}${MACOSX_BASESDK_VERSION}.sdk"
-MACOSX_BINDIR="$MACOSX_PLATFORMDIR/Developer/usr/bin"
+MACOSX_BINDIR="/usr/bin"
 MACOSX_CC="$MACOSX_BINDIR/llvm-gcc-$MACOSX_GCC_VERSION"
 MACOSX_CXX="$MACOSX_BINDIR/llvm-g++-$MACOSX_GCC_VERSION"
 MACOSX_PREFIXDIR="${PREFIX_BASEDIR}${MACOSX_BASESDK_DIR}"
